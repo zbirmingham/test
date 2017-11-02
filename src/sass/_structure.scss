@@ -1,0 +1,38 @@
+.wrapper {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin: 0 1.5rem;
+}
+
+.flexwrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tbp {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tbm {
+  margin-top: 1rem;
+  marign-bottom: 1rem;
+}
+
+
+// Footer
+footer {
+  padding: 0.7rem 0;
+}
+
+footer .flexwrap {
+  justify-content: space-between;
+}
+
+.footer-links a{
+  margin-left: 3rem;
+}

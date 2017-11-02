@@ -1,0 +1,33 @@
+//Colors
+$hblue: #00BCFF; //Blue
+$cat1: #FF005B;  //Red
+$cat2: #FF962B;  //Orange
+$cat3: #B2E644;  //Green
+$cat4: #521DFF;  //Blue(ish) Purple
+$dgray: #3F3F3F;
+$lgray: #f3f3f3;
+$offblack: #252525;
+$primary: $hblue;
+
+.text-primary { color: $primary; }
+.bg-primary { background-color: $primary; }
+.text-white { color: white; }
+.bg-white { background-color: white; }
+.text-dgray { color: $dgray; }
+.bg-dgray { background-color: $dgray; }
+.text-lgray { color: $lgray; }
+.bg-lgray { background-color: $lgray; }
+.text-offblack { color: $offblack; }
+.bg-offblack { background-color: $offblack; }
+.text-cat1 { color: $cat1; }
+.bg-cat1 { background-color: $cat1; }
+.bg-cat1-50 { background-color: transparentize($cat1, 0.5); }
+.text-cat2 { color: $cat2; }
+.bg-cat2 { background-color: $cat2; }
+.bg-cat2-50 { background-color: transparentize($cat2, 0.5); }
+.text-cat3 { color: $cat3; }
+.bg-cat3 { background-color: $cat3; }
+.bg-cat3-50 { background-color: transparentize($cat3, 0.5); }
+.text-cat4 { color: $cat4; }
+.bg-cat4 { background-color: $cat4; }
+.bg-cat4-50 { background-color: transparentize($cat4, 0.5); }

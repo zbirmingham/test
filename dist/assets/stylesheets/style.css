@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@font-face {
+  font-family: futurabold;
+  src: url(../fonts/FuturaStd-Bold.otf); }
+
+@font-face {
+  font-family: futuramed;
+  src: url(../fonts/FuturaStd-Medium.otf); }
+
+.text-primary {
+  color: #00BCFF; }
+
+.bg-primary {
+  background-color: #00BCFF; }
+
+.text-white {
+  color: white; }
+
+.bg-white {
+  background-color: white; }
+
+.text-dgray {
+  color: #3F3F3F; }
+
+.bg-dgray {
+  background-color: #3F3F3F; }
+
+.text-lgray {
+  color: #f3f3f3; }
+
+.bg-lgray {
+  background-color: #f3f3f3; }
+
+.text-offblack {
+  color: #252525; }
+
+.bg-offblack {
+  background-color: #252525; }
+
+.text-cat1 {
+  color: #FF005B; }
+
+.bg-cat1 {
+  background-color: #FF005B; }
+
+.bg-cat1-50 {
+  background-color: rgba(255, 0, 91, 0.5); }
+
+.text-cat2 {
+  color: #FF962B; }
+
+.bg-cat2 {
+  background-color: #FF962B; }
+
+.bg-cat2-50 {
+  background-color: rgba(255, 150, 43, 0.5); }
+
+.text-cat3 {
+  color: #B2E644; }
+
+.bg-cat3 {
+  background-color: #B2E644; }
+
+.bg-cat3-50 {
+  background-color: rgba(178, 230, 68, 0.5); }
+
+.text-cat4 {
+  color: #521DFF; }
+
+.bg-cat4 {
+  background-color: #521DFF; }
+
+.bg-cat4-50 {
+  background-color: rgba(82, 29, 255, 0.5); }
+
+body {
+  font-family: "Cormorant Garamond", "Georgia", serif;
+  color: #3F3F3F; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "futurabold", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase; }
+
+a {
+  color: #00BCFF;
+  text-decoration: none; }
+
+p {
+  line-height: 1.6; }
+
+.hero h1 {
+  font-size: 3rem; }
+
+.hero h2 {
+  text-transform: none;
+  font-family: "futuramed", "Helvetica", "Arial", sans-serif; }
+
+footer {
+  font-family: "futuramed", "Helvetica", "Arial", sans-serif;
+  font-size: 0.6rem; }
+
+footer a {
+  color: inherit; }
+
+.wrapper {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container {
+  margin: 0 1.5rem; }
+
+.flexwrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.tbp {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.tbm {
+  margin-top: 1rem;
+  marign-bottom: 1rem; }
+
+footer {
+  padding: 0.7rem 0; }
+
+footer .flexwrap {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.footer-links a {
+  margin-left: 3rem; }
+
+.case-study section {
+  margin: 3rem 0; }
+
+.case-study .hero {
+  margin-top: 0; }
+
+.case-study .impact article {
+  padding-right: 2rem; }
+
+.case-study .impact aside {
+  white-space: nowrap; }
+  .case-study .impact aside h3 {
+    font-size: 3rem;
+    font-family: "futuramed", "Helvetica", "Arial", sans-serif; }
+
+.case-study .works {
+  margin-bottom: 0; }
+  .case-study .works header {
+    font-size: 2rem;
+    padding: 1rem 0; }
+  .case-study .works .flexwrap {
+    padding: 3rem 1rem; }
+
+article h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem; }
+
+.hero-headline {
+  font-size: 3rem;
+  text-transform: uppercase; }
+
+.hero-subheadline {
+  font-size: 2rem;
+  font-family: "Cormorant Garamond", "Georgia", serif; }
+
+.splash {
+  height: 700px;
+  background-color: #f3f3f3;
+  margin: 2rem 0; }
+
+.stats {
+  padding: 0 4rem; }
+
+.stats h3 {
+  color: #FF005B;
+  font-family: futuramed;
+  font-size: 4rem; }
+
+.stats p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem; }
+
+.works figure {
+  width: 24%;
+  padding-bottom: 16%;
+  background-image: url(http://fillmurray.com/300/200);
+  -webkit-background-size: cover;
+          background-size: cover;
+  position: relative; }
+
+.works figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: futuramed;
+  padding: 1rem;
+  text-transform: uppercase; }
+
+.above h4 {
+  font-size: 2rem;
+  text-transform: uppercase; }
+
+.flexwrap > .f50 {
+  width: 50%; }
+
+nav {
+  height: 60px;
+  width: 100%; }

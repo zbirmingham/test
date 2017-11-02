@@ -1,0 +1,43 @@
+$headerfont: 'futurabold', 'Helvetica', 'Arial', sans-serif;
+$headerfontalt: 'futuramed', 'Helvetica', 'Arial', sans-serif;
+$bodyfont: 'Cormorant Garamond', 'Georgia', serif;
+$footerfont: 'futuramed', 'Helvetica', 'Arial', sans-serif;
+
+// General
+
+body {
+  font-family: $bodyfont;
+  color: $dgray;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: $headerfont;
+  text-transform: uppercase;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.6;
+}
+
+// Hero
+.hero {
+  h1 { font-size: 3rem; }
+  h2 {
+    text-transform: none;
+    font-family: $headerfontalt;
+  }
+}
+
+// Footer
+footer {
+  font-family: $footerfont;
+  font-size: 0.6rem;
+}
+
+footer a {
+  color: inherit;
+}

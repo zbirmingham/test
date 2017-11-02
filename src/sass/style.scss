@@ -1,0 +1,71 @@
+@import 'base';
+@import 'fonts';
+@import 'colors';
+@import 'typography';
+@import 'structure';
+@import 'nav';
+@import 'casestudy';
+
+article h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-headline {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.hero-subheadline {
+  font-size: 2rem;
+  font-family: $bodyfont;
+}
+
+.splash {
+  height: 700px;
+  background-color: $lgray;
+  margin: 2rem 0;
+}
+
+.stats {
+  padding: 0 4rem;
+}
+.stats h3 {
+  color: $cat1;
+  font-family: futuramed;
+  font-size: 4rem;
+}
+
+.stats p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.works figure {
+  width: 24%;
+  padding-bottom: 16%;
+  background-image: url(http://fillmurray.com/300/200);
+  background-size: cover;
+  position: relative;
+}
+
+.works figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: futuramed;
+  padding: 1rem;
+  text-transform: uppercase;
+
+}
+.above h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+
+.flexwrap > .f50 { width: 50%; }
+
+nav {
+  height: 60px;
+  width: 100%;
+}

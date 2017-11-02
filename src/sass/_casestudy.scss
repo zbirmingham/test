@@ -1,0 +1,34 @@
+.case-study section {
+  margin: 3rem 0;
+}
+
+// Hero
+.case-study .hero {
+  margin-top: 0;
+}
+
+// Impact
+.case-study .impact {
+    article { padding-right: 2rem; }
+    aside {
+      white-space: nowrap;
+      h3 {
+        font-size: 3rem;
+        font-family: $headerfontalt;
+      }
+    }
+}
+
+// Works
+.case-study .works {
+  margin-bottom: 0;
+
+  header {
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
+
+  .flexwrap {
+    padding: 3rem 1rem;
+  }
+}
