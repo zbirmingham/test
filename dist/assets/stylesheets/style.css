@@ -368,3 +368,87 @@ nav {
 
 .statistics figure {
   margin: 3rem 0; }
+
+.instagram div header a svg path {
+  fill: #00BCFF; }
+
+.instagram div header a svg {
+  width: 47px;
+  height: 47px; }
+
+.instagram div header a h3 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.instagram div header a {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.instagram figure {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 375px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 3rem 0; }
+
+.instagram figure a {
+  height: 50%;
+  width: 20%;
+  background-image: url(http://www.fillmurray.com/192/188);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.contact div article {
+  text-align: center; }
+
+.icons {
+  margin: 3rem 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center; }
+
+.icons figure {
+  margin-left: 3em;
+  margin-right: 3em; }

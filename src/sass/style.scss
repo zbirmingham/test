@@ -214,3 +214,62 @@ nav {
 .statistics figure {
   margin: 3rem 0;
 }
+
+.instagram div header a svg path {
+  fill: #00BCFF;
+}
+
+.instagram div header a svg {
+  width: 47px;
+  height: 47px;
+}
+
+.instagram div header a h3 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.instagram div header a {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram figure {
+  flex-direction: row;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 375px;
+  box-sizing: border-box;
+  margin: 3rem 0;
+}
+
+.instagram figure a {
+  height: 50%;
+  width: 20%;
+  background-image: url(http://www.fillmurray.com/192/188);
+  background-size: cover;
+}
+
+.contact div article {
+  text-align: center;
+}
+
+.icons {
+  margin: 3rem 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center;
+}
+
+.icons figure {
+  margin-left: 3em;
+  margin-right: 3em;
+}
